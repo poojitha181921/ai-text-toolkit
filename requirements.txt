@@ -9,3 +9,4 @@ pytest
 scikit-learn>=1.4.0
 rouge-score>=0.1.2
 sentence-transformers>=2.6.0
+streamlit>=1.32.0
