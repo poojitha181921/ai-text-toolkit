@@ -1,0 +1,30 @@
+{
+  "classification_tests": [
+    {
+      "text": "My internet connection drops every ten minutes and the router light turns red.",
+      "candidate_labels": ["billing", "technical support", "sales", "general"],
+      "expected_label": "technical support"
+    },
+    {
+      "text": "Can I upgrade my plan to include unlimited international calling?",
+      "candidate_labels": ["billing", "technical support", "sales", "general"],
+      "expected_label": "sales"
+    },
+    {
+      "text": "I noticed an unauthorized charge of 45 dollars on my statement yesterday.",
+      "candidate_labels": ["billing", "technical support", "sales", "general"],
+      "expected_label": "billing"
+    },
+    {
+      "text": "What are your customer service operating hours during public holidays?",
+      "candidate_labels": ["billing", "technical support", "sales", "general"],
+      "expected_label": "general"
+    }
+  ],
+  "summarization_tests": [
+    {
+      "text": "Transfer learning has become a foundational paradigm in deep learning and natural language processing. Instead of training large neural network models from scratch on specific domain tasks, practitioners initialize models using weights pretrained on massive web-scale corpora. These foundation models are subsequently fine-tuned on smaller, specialized datasets. This workflow dramatically reduces computational overhead, accelerates training cycles, and consistently achieves state-of-the-art accuracy even when labeled domain data is sparse.",
+      "reference_summary": "Transfer learning uses pretrained models fine-tuned on smaller datasets, reducing training compute and improving accuracy with limited data."
+    }
+  ]
+}

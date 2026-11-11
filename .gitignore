@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+logs/
+*.log
+
+# Benchmark and temporary JSON outputs
+evaluation/benchmark_report.json
+output.json
+
+# Model caches & checkpoints
+.cache/
+checkpoints/
+
+# VS Code settings
+.vscode/
